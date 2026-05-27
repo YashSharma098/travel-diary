@@ -36,28 +36,28 @@ const Home = () => {
    }, []);
 
 
-   // Loading state — show skeletons while fetching
-   // if (loading) {
-   //     return (
-   //         <div className="max-w-6xl mx-auto px-8 py-12">
-   //             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-   //                 {/* Show 6 skeleton cards while loading */}
-   //                 {[1, 2, 3, 4, 5, 6].map((i) => (
-   //                     <div key={i} className="bg-white rounded-xl shadow-sm overflow-hidden">
-   //                         {/* animate-pulse = pulsing gray effect */}
-   //                         <div className="h-48 bg-gray-200 animate-pulse" />
-   //                         <div className="p-5 space-y-3">
-   //                             <div className="h-4 bg-gray-200 rounded animate-pulse w-1/3" />
-   //                             <div className="h-6 bg-gray-200 rounded animate-pulse" />
-   //                             <div className="h-4 bg-gray-200 rounded animate-pulse" />
-   //                             <div className="h-4 bg-gray-200 rounded animate-pulse w-2/3" />
-   //                         </div>
-   //                     </div>
-   //                 ))}
-   //             </div>
-   //         </div>
-   //     );
-   // }
+   Loading state — show skeletons while fetching
+   if (loading) {
+       return (
+           <div className="max-w-6xl mx-auto px-8 py-12">
+               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                   {/* Show 6 skeleton cards while loading */}
+                   {[1, 2, 3, 4, 5, 6].map((i) => (
+                       <div key={i} className="bg-white rounded-xl shadow-sm overflow-hidden">
+                           {/* animate-pulse = pulsing gray effect */}
+                           <div className="h-48 bg-gray-200 animate-pulse" />
+                           <div className="p-5 space-y-3">
+                               <div className="h-4 bg-gray-200 rounded animate-pulse w-1/3" />
+                               <div className="h-6 bg-gray-200 rounded animate-pulse" />
+                               <div className="h-4 bg-gray-200 rounded animate-pulse" />
+                               <div className="h-4 bg-gray-200 rounded animate-pulse w-2/3" />
+                           </div>
+                       </div>
+                   ))}
+               </div>
+           </div>
+       );
+   }
 
 
    // error state
