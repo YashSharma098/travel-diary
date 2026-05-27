@@ -36,7 +36,7 @@ const Home = () => {
    }, []);
 
 
-   Loading state — show skeletons while fetching
+   // Loading state — show skeletons while fetching
    if (loading) {
        return (
            <div className="max-w-6xl mx-auto px-8 py-12">
