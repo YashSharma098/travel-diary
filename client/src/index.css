@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body {
+    background-color: rgb(240 253 244); /* this is Tailwind's green-50 color */
+}
