@@ -1,16 +1,17 @@
 # ✈️ Travel Diary
 
-A full-stack travel diary platform where users can share their travel stories with photos.
+Travel diary platform where users can share their travel stories with photos. It act as their travel archive where users can share their unique and memorable travel experiences.
 
 ## 🌐 Live Demo
-[https://travel-diary-client.vercel.app](https://travel-diary-client.vercel.app)
+[https://travel-diary-cyan.vercel.app/](https://travel-diary-cyan.vercel.app/)
 
 ## ✨ Features
-- User authentication (JWT)
 - Create travel posts with multiple photos
+- Share unique and memorable stories of that trip
 - Like and unlike posts
-- User profiles with profile picture
 - Search posts by title or location
+- User authentication (JWT)
+- User profiles with profile picture
 - Fully responsive design
 
 ## 🛠️ Tech Stack
